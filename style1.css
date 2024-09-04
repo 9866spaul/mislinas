@@ -1,0 +1,22 @@
+body::before {
+    position:absolute;
+    width: 250px;
+    height: 250px;
+   
+  }
+  
+  body::after {
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(143, 105, 255);
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(199, 63, 21);
+margin-top: 55px;
+margin-left: 450px;
+  }
+  *{
+    box-sizing: border-box;
+  }
